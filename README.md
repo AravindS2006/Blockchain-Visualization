@@ -13,22 +13,12 @@
 
 Experience Aether live!  Explore the simulated blockchain and witness the future of decentralized visualization.
 
-<div align="center">
-<a href="https://huggingface.co/spaces/aravinds2006/blockchain-visualization" target="_blank">
-  <img src="https://huggingface.co/embed/aravinds2006/blockchain-visualization/+/thumbnail.png" alt="Hugging Face Space" style="border: 1px solid #ccc; border-radius: 5px;">
-</a>
-</div>
-
-**Or, try it directly embedded:**
-
-<div align="center">
 <iframe
-    src="https://aravinds2006-blockchain-visualization.static.hf.space"
-    frameborder="0"
-    width="850"
-    height="450"
+	src="https://aravinds2006-blockchain-visualization.static.hf.space"
+	frameborder="0"
+	width="850"
+	height="450"
 ></iframe>
-</div>
 
 ## 🚀 Key Features
 
