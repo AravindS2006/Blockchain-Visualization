@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Explorer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <header>
+        <div class="logo">
+            <img src="https://icons.veryicon.com/png/o/miscellaneous/color-work-icon/blockchain-2.png" alt="Logo">
+            <span><a href="">My Blockchain Explorer</a></span>
+        </div>
+        <nav>
+            <a href="#blockchain-section">Blockchain</a>
+            <a href="#transaction-section">Transactions</a>
+            <a href="#analytics-sections">Analytics</a>
+            <a href="#settings-sections">Settings</a>
+        </nav>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero-section">
+            <div class="hero-content">
+                <h1 class="animate__animated animate__fadeInUp">Explore the Future of Decentralization</h1>
+                <p class="animate__animated animate__fadeInUp animate__delay-1s">This Explorer provides insights into the blockchain, transactions, and more.</p>
+                <a href="#blockchain-section" class="cta-button animate__animated animate__fadeInUp animate__delay-2s">Get Started</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://icons.veryicon.com/png/o/miscellaneous/color-work-icon/blockchain-2.png" alt="Blockchain Illustration">
+            </div>
+        </section>
+
+        <section id="blockchain-section">
+            <div class="section-header">
+                <h2>Blockchain Visualization</h2>
+                <div class="gradient-border"></div>
+            </div>
+            <div id="blockchain-container">
+                <!-- Blocks will be dynamically added here -->
+            </div>
+        </section>
+
+        <section id="transaction-section">
+            <div class="section-header">
+                <h2>Add New Transaction</h2>
+                <div class="gradient-border"></div>
+            </div>
+            <div id="add-transaction-form">
+                <input type="text" id="transaction-data" placeholder="Transaction Data">
+                <button id="add-transaction-button">Add Transaction</button>
+                <div id="mining-status"></div>
+                <div id="mining-cost"></div>
+            </div>
+        </section>
+
+        <section id="transaction-lookup-section">
+            <div class="section-header">
+                <h2>Transaction Lookup</h2>
+                <div class="gradient-border"></div>
+            </div>
+            <div id="transaction-lookup-form">
+                <input type="text" id="transaction-id" placeholder="Enter Transaction Data to Lookup">
+                <button id="lookup-transaction-button">Lookup Transaction</button>
+                <div id="transaction-lookup-results"></div>
+            </div>
+        </section>
+
+        <!-- Analytics and Settings moved to within main content-->
+        <section id="analytics-sections">
+            <div class="section-header">
+                <h2>Blockchain Analytics</h2>
+                <div class="gradient-border"></div>
+            </div>
+            <div id="analytics-dashboard">
+                <div class="analytic-card">
+                    <h3>Total Blocks</h3>
+                    <span id="total-blocks">0</span>
+                </div>
+                <div class="analytic-card">
+                    <h3>Average Mining Time</h3>
+                    <span id="average-mining-time">0 ms</span>
+                </div>
+                <div class="analytic-card">
+                    <h3>Current Difficulty</h3>
+                    <span id="current-difficulty">0</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="settings-sections">
+            <div class="section-header">
+                <h2>Settings</h2>
+                <div class="gradient-border"></div>
+            </div>
+            <div id="settings-panel">
+                <div class="setting-option">
+                    <label for="node-url">Node URL:</label>
+                    <input type="text" id="node-url" placeholder="Enter Node URL">
+                </div>
+                <div class="setting-option">
+                    <label for="refresh-interval">Refresh Interval (seconds):</label>
+                    <input type="number" id="refresh-interval" value="60">
+                </div>
+                <button id="save-settings">Save Settings</button>
+            </div>
+        </section>
+
+        <!-- Under Construction Section (Initially Hidden) -->
+        <section id="construction-section" style="display: none;">
+            <h1 class="animate__animated animate__bounce">Under Construction!</h1>
+            <p>We're working hard to bring you something amazing. Check back soon!</p>
+
+            <div class="interactive-elements">
+                <div class="gear-container">
+                    <div class="gear gear-1"></div>
+                    <div class="gear gear-2"></div>
+                </div>
+
+                <div class="progress-bar-container">
+                    <div class="progress-bar">
+                        <div class="progress-indicator"></div>
+                    </div>
+                    <span class="progress-text">Loading...</span>
+                </div>
+
+                <div class="confetti-container">
+                    <!-- Confetti will be generated here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 My Blockchain Explorer. All rights reserved.</p>
+        <p>Designed by Aravindselvan</p>
+        <div class="social-links">
+            <a href="https://www.x.com/aravindfx369" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.github.com/aravinds2006" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aravindselvan-c-a60992278/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!-- Modal for Block Details -->
+    <div id="block-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <h2 id="modal-block-index"></h2>
+            <p id="modal-block-timestamp"></p>
+            <p id="modal-block-data"></p>
+            <p id="modal-block-previous-hash"></p>
+            <p id="modal-block-hash"></p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
