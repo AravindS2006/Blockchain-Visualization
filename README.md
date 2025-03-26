@@ -19,7 +19,8 @@ Experience Aether live!  Explore the simulated blockchain and witness the future
 	frameborder="0"
 	width="850"
 	height="450"
-></iframe></div>div>
+></iframe>
+</div>
 
 ## 🚀 Key Features
 
