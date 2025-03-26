@@ -15,7 +15,7 @@ Experience Aether live!  Explore the simulated blockchain and witness the future
 
 <div align="center">
 <iframe>
-    src="[https://aravinds2006-blockchain-visualization.static.hf.space](https://aravinds2006-blockchain-visualization.static.hf.space/index.html)"
+    src="https://aravinds2006-blockchain-visualization.static.hf.space"
     frameborder="0"
     width="850"
     height="450"
