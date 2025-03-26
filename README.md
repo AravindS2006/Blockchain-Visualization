@@ -1,15 +1,11 @@
 # Blockchain-Visualization
 # ⚛️Next-Gen Blockchain Explorer 🌌
 
-[![GitHub Repo stars](https://img.shields.io/github/stars//AravindS2006/Blockchain-Visualization?style=social)](https://github.com//AravindS2006/Blockchain-Visualization)
-[![GitHub forks](https://img.shields.io/github/forks//AravindS2006/Blockchain-Visualization?style=social)](https://github.com//AravindS2006/Blockchain-Visualization/fork)
-[![GitHub issues](https://img.shields.io/github/issues//AravindS2006/Blockchain-Visualization)](https://github.com//AravindS2006/Blockchain-Visualization/issues)
+[![GitHub Repo stars](https://img.shields.io/github/stars/AravindS2006/Blockchain-Visualization?style=social)](https://github.com/AravindS2006/Blockchain-Visualization)
+[![GitHub forks](https://img.shields.io/github/forks/AravindS2006/Blockchain-Visualization?style=social)](https://github.com/AravindS2006/Blockchain-Visualization/fork)
+[![GitHub issues](https://img.shields.io/github/issues/AravindS2006/Blockchain-Visualization)](https://github.com/AravindS2006/Blockchain-Visualization/issues)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/aravinds2006/blockchain-visualization)
-
-<p align="center">
-  <img src="path/to/your/project_logo.png" alt="Aether Logo" width="200">
-</p>
 
  Thisis a cutting-edge, visually stunning, and interactive blockchain explorer designed to make understanding blockchain technology accessible and engaging. Dive into the decentralized world with a sleek, modern interface and innovative features.  Built with JavaScript, HTML, and CSS, Aether is more than just a blockchain explorer; it's an experience.
 
@@ -85,18 +81,10 @@ We welcome contributions! Here's how you can help:
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## 🤝 Credits
 
-*   Aether is built with ❤️ by [YOUR_NAME] and contributors.
+*   Aether is built with ❤️ by Aravindselvan and contributors.
 *   Special thanks to the open-source community for providing the tools and libraries that made this project possible.
 
-## Connect
-
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](YOUR_TWITTER_LINK)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_LINK)
-
----
-
-**Embark on your blockchain journey with Aether!** 🚀
