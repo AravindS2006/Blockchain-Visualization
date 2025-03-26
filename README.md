@@ -13,12 +13,13 @@
 
 Experience Aether live!  Explore the simulated blockchain and witness the future of decentralized visualization.
 
+<div>
 <iframe
 	src="https://aravinds2006-blockchain-visualization.static.hf.space"
 	frameborder="0"
 	width="850"
 	height="450"
-></iframe>
+></iframe></div>div>
 
 ## 🚀 Key Features
 
